@@ -7,7 +7,7 @@
 - Command Hooks
 - Two Tomatoes
 - Two Potatoes
-- Deodorant
+- Deodorant (wasn't in the chest)
 
 
 
