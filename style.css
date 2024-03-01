@@ -1,64 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
 
-*{
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    text-decoration: none;
+* {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  text-decoration: none;
 }
 
 body {
-    margin: 0;
-    background-color: black;
-    font-size:15vh;
+  margin: 0;
+  background-color: black;
+  font-size: 15vh;
+  width: 100vh;
+  width: 100%;
 }
 
 .title {
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
 }
 
+.leaderboard,
 .startBtn {
-    color: white;
-    font-size: 5vh;
-    background-color: black;
-    color: white;
-    border: 5px solid white;
-    z-index: 10;
-    text-decoration: none;
-    padding: 10px;
-    margin-top: 2%;
-    margin-bottom: 15px;
+  color: white;
+  font-size: 5vh;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  z-index: 10;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 15px;
 }
 
-.startBtn:hover{
-    background-color: greenyellow;
-    color: black;
-    border: 5px solid green;
+.leaderboard:hover,
+.startBtn:hover {
+  background-color: greenyellow;
+  color: black;
+  border: 5px solid green;
 }
 
 #loreText {
-    display: none;
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    font-size: 5vh;
-    flex-direction: column;
+  display: none;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 5vh;
+  flex-direction: column;
 }
 
 .loreMain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+}
+
+#waveCount {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -90px;
 }
