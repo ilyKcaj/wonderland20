@@ -7,7 +7,7 @@
 - Command Hooks
 - Two Tomatoes
 - Two Potatoes
-- Deodorant (wasn't in the chest)
+- Deodorant (Missing)
 
 
 
@@ -54,19 +54,19 @@
 
 
 ### Ended With:
-STEM Garden Defence
+STEM Garden Defense
 
 
 
 ### Project Summary
-A tower defence video game
+A tower defense video game
 
 
 
 ### How did the items in your box inspire you?
-At first, we knew we wanted to make a video game as soon as we saw the switch controller. We thought it would be so funny to program the calculator and somehow connect it to the switch controller, but we soon learned that it was pretty hard to program the calculator because it was so old. So, we kept on brainstorming. After some time, we ended up with two main ideas that we were deciding between: a farming simulator game and a tower defence game. We ended up going with the tower defence route because we thought that it was both easier and better for incorporating all of the items in our chest. 
+At first, we knew we wanted to make a video game as soon as we saw the switch controller. We thought it would be so funny to program the calculator and somehow connect it to the switch controller, but we soon learned that it was pretty hard to program the calculator because it was so old. So, we kept on brainstorming. After some time, we ended up with two main ideas that we were deciding between: a farming simulator game and a tower defense game. We ended up going with the tower defense route because we thought that it was both easier and better for incorporating all of the items in our chest. 
 
-Our first prototype game was one where a flow of enemies would go towards an end point, and the only way to defeat them was solving math questions on your calculator. We soon scrapped this idea because we thought it was too simple and boring, so we moved onto to actually incorporating the calculator as a tower and using it to defeat oncoming waves of vegetables. We made a pixel art version of our calculator, and made it shoot math operations and explode the vegetables into numbers. At the beginning, it was just tomatoes and potatoes, but soon we incorporated more vegatables——broccoli and cactus. We manually drew each sprite on a pixel art maker. We didn't know how to incorporate the MIT magazine, but as we were flipping through it, we stumbled upon an image of a forest path from a bird's eye view, and knew this was going to be our map for the defence game. We put it in a pixel art converter to match our theme. As for the other items in the game, we didn't know what to do with the hooks and we didn't even have deodorant in our chest. The Nintnedo Switch Controller was our biggest letdown. We spent the most of our time trying to figure out how to get it to work, but we realized that it was only compatiable with a Switch, and not a PC. We tried breaking it apart and hacking the circuitry, but none of us really knew what to do, so we ended up giving up. 
+Our first prototype game was one where a flow of enemies would go towards an end point, and the only way to defeat them was solving math questions on your calculator. We soon scrapped this idea because we thought it was too simple and boring, so we moved onto to actually incorporating the calculator as a tower and using it to defeat oncoming waves of vegetables. We made a pixel art version of our calculator, and made it shoot math operations and explode the vegetables into numbers. At the beginning, it was just tomatoes and potatoes, but soon we incorporated more vegatables——broccoli and cactus. We manually drew each sprite on a pixel art maker. We didn't know how to incorporate the MIT magazine, but as we were flipping through it, we stumbled upon an image of a forest path from a bird's eye view, and knew this was going to be our map for the defense game. We put it in a pixel art converter to match our theme. As for the other items in the game, we didn't know what to do with the hooks and we didn't even have deodorant in our chest. The Nintnedo Switch Controller was our biggest letdown. We spent the most of our time trying to figure out how to get it to work, but we realized that it was only compatiable with a Switch, and not a PC.
 
 
 

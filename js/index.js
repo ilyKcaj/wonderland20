@@ -69,12 +69,17 @@ function animate() {
 
 	c.drawImage(image, 0, 0)
 	document.getElementById('hpScale').innerHTML = wave;
-	document.getElementById("waveCount").innerHTML = "Wave : " + wave + "<br>" + "Enemy Count : " + enemyCounter;
+	document.getElementById("waves").innerHTML = wave;
+	document.getElementById("enemies").innerHTML = enemyCounter;
 	if (wave === 6) {
 		console.log('game over')
 		cancelAnimationFrame(animationId)
-		document.getElementById('gameOver').innerHTML = "You win!"
+		document.getElementById('gameOver').innerHTML = "You Win!"
 		document.getElementById('gameOver').style.display = 'flex'
+		document.getElementById('waves').innerHTML = "0"
+		document.getElementById('enemies').innerHTML = "0"
+		document.getElementById('coins').innerHTML = "0"
+		document.getElementById('hearts').innerHTML = "0"
 	}
 
 	for (let i = enemies.length - 1; i >= 0; i--) {
@@ -225,4 +230,8 @@ window.addEventListener('mousemove', (event) => {
 function playMusic() {
 	var audio = document.getElementById("audio");
 	audio.play();
+}
+
+function refreshPage(){
+	window.location.reload();
 }
