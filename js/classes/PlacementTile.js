@@ -14,10 +14,10 @@ class PlacementTile {
   update(mouse) {
     this.draw()
     if (
-      mouse.x > this.position.x &&
-      mouse.x < this.position.x + this.size &&
-      mouse.y > this.position.y &&
-      mouse.y < this.position.y + this.size
+      mouse.x - 260 > this.position.x &&
+      mouse.x - 260 < this.position.x + this.size &&
+      mouse.y - 25 > this.position.y &&
+      mouse.y - 25 < this.position.y + this.size
     ) {
       this.color = 'rgba(0, 0, 255, 0.5)'
     } else this.color = 'rgba(0, 0, 0, 0)'
