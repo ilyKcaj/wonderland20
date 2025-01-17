@@ -216,10 +216,10 @@ window.addEventListener('mousemove', (event) => {
 	for (let i = 0; i < placementTiles.length; i++) {
 		const tile = placementTiles[i]
 		if (
-			mouse.x - 260 > tile.position.x &&
-			mouse.x - 260 < tile.position.x + tile.size &&
-			mouse.y - 25 > tile.position.y &&
-			mouse.y - 25 < tile.position.y + tile.size
+			mouse.x > tile.position.x &&
+			mouse.x < tile.position.x + tile.size &&
+			mouse.y > tile.position.y &&
+			mouse.y < tile.position.y + tile.size
 		) {
 			activeTile = tile
 			break

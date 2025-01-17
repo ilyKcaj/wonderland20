@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+canvas {
+  cursor: none;
+}
+
 body {
   margin: 0;
   background-color: black;
