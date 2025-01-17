@@ -90,3 +90,33 @@ canvas {
   justify-content: space-between;
   margin-top: -90px;
 }
+
+.lore-container {
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.loreMain {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.startBtn, .leaderboard {
+  padding: 15px 30px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
